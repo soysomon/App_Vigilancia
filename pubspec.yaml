@@ -1,0 +1,48 @@
+name: vigi_app
+description: Aplicación móvil para la gestión de incidencias de policías secretos.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.2
+  image_picker: ^1.1.2
+  path: ^1.8.0
+  flutter_sound: ^9.1.11
+  flutter_sound_platform_interface: ^9.2.13
+  permission_handler: ^11.3.1
+  audioplayers: ^6.0.0
+  google_fonts: ^6.2.1
+  vibration: ^1.7.4
+  font_awesome_flutter: ^10.1.0
+  url_launcher: ^6.0.9 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: flase
+  image_path: "assets/logo_mysrox.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/officer.jpg
+    - assets/background.png
+    - assets/back.png
+    - assets/intro.png
+    - assets/login.png
+    - assets/home.png
+    - assets/block.png
+    - assets/logo_police1.png
+    - assets/teniente.png
+    - assets/iamsomon.jpg
